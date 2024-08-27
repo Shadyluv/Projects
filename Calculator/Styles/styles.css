@@ -17,7 +17,7 @@ body {
   margin: 100px;
   width: 200px auto;
   padding: 20px;
-  box-shadow: 0, 0, 0, 10 blueviolet;
+  box-shadow: 0, 0, 0, 10px blueviolet;
   background-color: yellow;
   color: #ccc;
   border: 100px solid #ccc;
