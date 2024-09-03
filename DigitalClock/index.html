@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="Styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="clock">
+      <h1>Digital Clock</h1>
+      <div class="clocks">
+        <div id="times">
+          <div class="hour">00</div>
+          <div>Hour</div>
+        </div>
+        <div id="times">
+          <span>:</span>
+          <div class="min">00</div>
+          <div>Minutes</div>
+        </div>
+        <div id="times">
+          <span>:</span>
+          <div class="sec">00</div>
+          <div>Seconds</div>
+        </div>
+      </div>
+    </div>
+    <script src="Scripts/app.js"></script>
+  </body>
 </html>

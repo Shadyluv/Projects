@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+}
+.clock {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 20px;
+  border-radius: 1rem;
+}
+h1 {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  color: #61dafb;
+}
+.clocks {
+  display: flex;
+  color: #61dafb;
+  font-size: 5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "orbitron";
+  gap: 10px;
+  border-color: #61dafb;
+  border-style: double;
+  padding: 10px;
+  border-radius: 1rem;
+  border-width: 10px;
+}
+
+.times {
+  display: flex;
+}

@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Styles/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <input type="text" id="input" placeholder="Enter your City" />
+      <button id="searchBtn">Search</button>
+      <div class="weatherInfo">
+        <h2 id="location"></h2>
+        <p id="tempature"></p>
+        <p id="description"></p>
+      </div>
+    </div>
+    <script src="Scripts/app.js"></script>
+  </body>
 </html>

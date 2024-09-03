@@ -1,20 +1,23 @@
-.body {
+body {
   display: flex;
   justify-content: center;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  height: 100vh;
   text-align: center;
   background-attachment: fixed;
+  background-color: #dee6df;
 }
 
 .calculator {
-  padding: 20px 25px 30px;
+  padding: 20px;
   border: 5px solid #656f66;
   border-radius: 10px;
   width: 300px;
   margin: auto;
   box-shadow: 0, 5px, 0, 0;
-  background: linear-gradient(#444, #656f66);
+  background: linear-gradient(#444444, #656f66);
 }
 
 .calculator p {
@@ -23,10 +26,10 @@
 }
 
 #display {
-  margin: 20px 0px;
+  margin-bottom: 20px;
   height: 40px;
   display: flex;
-  width: 280px;
+  width: 92%;
   padding: 10px;
   border: none;
   border-radius: 4px;
